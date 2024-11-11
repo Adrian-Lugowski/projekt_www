@@ -1,0 +1,13 @@
+body {
+    background-image: url("obrazki/bg1.jpg");
+}
+a:link, a:visited {
+    color: rgb(255, 255, 255);
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+p {
+    color: rgb(255, 255, 255);
+}

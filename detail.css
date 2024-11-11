@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("obrazki/bg1.jpg");
+    color: #333;
+}
+a:link, a:visited {
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.game-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fav {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #ffffff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    height: 125px;
+    width: 150px;
+}
+
+.game-image img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+.game-details, .game-description, .add-review, .reviews, .media-gallery, .game-videos, .tab-nav, .tab-content {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #59bcf9;
+    border-radius: 10px;
+}
+
+.game-details p, .game-description p {
+    margin: 10px 0;
+}
+
+.add-review textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.add-review select {
+    margin-top: 10px;
+    padding: 5px;
+}
+
+.submit-review {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.review {
+    padding: 10px;
+    margin: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.media-gallery h2 {
+    margin-bottom: 15px;
+}
+
+.gallery {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+.gallery-item {
+    flex: 0 0 auto;
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.gallery-item img, .gallery-item video {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.tab-nav {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    background-color: #ddd;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.tab-button.active {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+.tab-content {
+    display: none;
+}
+
+.game-videos {
+    margin-top: 20px;
+}
+
+.video-scroll-container {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    padding: 10px 0;
+    scrollbar-width: thin;
+}
+
+.video-scroll-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.video-scroll-container::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 4px;
+}
+
+.video-container {
+    flex: 0 0 320px;
+    position: relative;
+    overflow: hidden;
+    padding-top: 56.25%;
+    border-radius: 10px;
+    background-color: #000;
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+#big {
+    display: block;
+    width: 400px;
+    height: 300px;
+    margin: 0 auto 20px auto;
+    border: 2px solid #ccc;
+}
